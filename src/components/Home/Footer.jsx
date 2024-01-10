@@ -115,7 +115,7 @@ const Footer = () => {
         </MiddleContainer>
         <hr style={{color: 'var(--black-text-color)', marginTop: '20px' }}/>
         <CopyRight>
-            Copyright © 2023 IV. All Rights Reserved
+            Copyright © 2024 IV. All Rights Reserved
         </CopyRight>
     </Body>
   )

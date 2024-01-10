@@ -208,7 +208,7 @@ const Hero = () => {
                     <img src={STAR} srcSet="" alt="star" width="30px"/>
                     <img src={STAR} srcSet="" alt="star" width="30px"/>
                 </div>
-                <IntroText>6 Yrs</IntroText>
+                <IntroText>7 Yrs</IntroText>
                 <EXPText>Expertise</EXPText>
             </ExperienceContainer>
            
