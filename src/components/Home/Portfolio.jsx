@@ -1,5 +1,5 @@
 import { styled } from "styled-components"
-import { GreetingCase, IntroText, IntroTextSpan } from "./Hero"
+import { GreetingCase, IntroText, IntroTextSpan, MarginedBody } from "./Hero"
 import IMG_1 from '../../assets/Thumbnail.png'
 import IMG_2 from '../../assets/Thumbnail1.png'
 import { Badge, Carousel, Stack } from "react-bootstrap"
@@ -80,7 +80,7 @@ const Portfolio = () => {
         setIndex(selectedIndex);
     };
     return (
-    <>
+    <MarginedBody id="project">
         <Header>
             <IntroText style={{ display: 'block', textAlign: 'left'}}>Dive Into My <IntroTextSpan>Portfolio</IntroTextSpan> </IntroText>
             <GreetingCase style={{ margin: '0', height: 'fit-content', color: 'var(--inverted-text-color)', backgroundColor: 'var(--primary-color)', borderColor: 'var(--primary-color)'}}>More</GreetingCase>
@@ -117,7 +117,7 @@ const Portfolio = () => {
                     </Container>
                 ))
             }
-    </>
+    </MarginedBody>
   )
 }
 

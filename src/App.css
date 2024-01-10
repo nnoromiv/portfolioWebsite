@@ -18,12 +18,14 @@ body{
 @media screen and (min-width: 769px){
   #navbar-sm {
     display: none;
+    background-color: var(--primary-color);
   }
 }
 
 @media screen and (max-width: 769px){
   #navbar-large {
     display: none;
+    
   }
   .card:first-child{
     grid-column: 1/2 !important;
@@ -34,13 +36,10 @@ body{
 }
 
 #navbar-large {
-  margin: 10px 40px;
-  border: 1px solid var(--navbar-bg-color);
+  margin: 10px 20px;
   border-radius: 30px;
-  background-color: var(--navbar-bg-color);
-  @media screen and (max-width: 769px){
-      margin: 10px 20px;
-  }
+  background-color: var(--primary-color);
+  padding: 20px 0;
 }
 
 .navbar-toggler {
@@ -61,7 +60,8 @@ body{
 }
 
 .navbar-brand {
-  margin: 0 0 0 15px;
+  font-size: 24px;
+  color: var(--secondary-color);
 }
 
 #responsive-navbar-nav-sm {
@@ -69,21 +69,20 @@ body{
   border-radius: 10px;
   padding: 20px;
   width: 100vw;
-  background-color: var(--navbar-bg-color);
+  background-color: var(--primary-color);
 }
 
 .nav-item {
   font-size: 14px;
-  margin: 0 0 0 10px;
   font-weight: 800;
 }
 
 .nav-link {
-  color: var(--inverted-text-color)
+  color: var(--white-text-color)
 }
 
 .nav-link.active {
-  color: var(--primary-color) !important;
+  color: var(--link-color) !important;
 }
 
 .card {
@@ -107,16 +106,16 @@ body{
 
 .card-header {
   font-size: 30px;
-  color: var(--secondary-color)
+  color: var(--black-text-color)
 }
 
 .Orange, .Orange.Orange {
   background: var(--primary-color);
-  color: white
+  color: var(--white-text-color)
 }
 
 .Orange > .card-header {
-  color: white !important;
+  color: var(--white-text-color) !important;
 }
 
 .card-body {
@@ -191,15 +190,21 @@ body{
 }
 
 .card-title {
-  margin: 20px 0
+  margin: 20px 0;
 }
 
 ol{
   color: var(--inverted-text-color);
   padding: 0;
+  margin: 10px 0 0 0;
 }
 
 li {
   list-style: none;
-  margin: 0 0 20px 10px;
+  margin: 3px 0 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
 }

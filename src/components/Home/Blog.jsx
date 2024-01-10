@@ -1,5 +1,5 @@
 // import { styled } from "styled-components"
-import { IntroText, IntroTextSpan, GreetingCase } from "./Hero"
+import { IntroText, GreetingCase } from "./Hero"
 import THUMBNAIL from "../../assets/Thumbnail.png"
 import THUMBNAIL2 from "../../assets/Thumbnail1.png"
 import { Header } from "./Portfolio"
@@ -32,7 +32,7 @@ const Blog = () => {
   return (
     <Body style={{ marginTop: '40px'}}>
         <Header style={{ margin: '0 0 20px 0'}}>
-            <IntroText style={{ display: 'block', textAlign: 'left', color: 'var(--inverted-text-color)'}}>From my <IntroTextSpan>Blog</IntroTextSpan> </IntroText>
+            <IntroText>Blog</IntroText>
             <GreetingCase style={{ margin: '0', height: 'fit-content', color: 'var(--inverted-text-color)', backgroundColor: 'var(--primary-color)', borderColor: 'var(--primary-color)'}}>More</GreetingCase>
         </Header>
         <LocalCard informationInArray={BLOG_INFORMATION} Show={false} />

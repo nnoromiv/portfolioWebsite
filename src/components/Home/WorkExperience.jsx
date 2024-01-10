@@ -1,7 +1,7 @@
 import { styled } from 'styled-components'
 import LINE from '../../assets/line.svg'
 import TypeWriting from '../TypeWriting'
-import { IntroText } from './Hero'
+import { IntroText, MarginedBody } from './Hero'
 
 const Body = styled.div`
     height: 100% !important;
@@ -103,36 +103,39 @@ const TypewriterStrings = [' Experience', ' Adventure']
 
 const WorkExperience = () => {
   return (
-    <Body>
+    <MarginedBody id='resume'>
+        <Body>
         <IntroText>My Work&nbsp;<TypeWriting ArrayOfStrings={TypewriterStrings} /></IntroText> 
         <ContainerLarge>
         <Company>
             <div>
-                <H2>Self Employed, NYC</H2>
-                <P> Sept. 2022-2023 </P>
+                <H2>RedTechLimited, Victoria, Island</H2>
+                <P> May 2021-2024 </P>
             </div>
             <div>
-                <H2>Self Employed, NYC</H2>
-                <P> Sept. 2022-2023 </P>
+                <H2>Tony Elumelu Foundation, Lagos</H2>
+                <P> Sept. 2022 - Oct. 2023 </P>
             </div>
             <div>
-                <H2>Self Employed, NYC</H2>
-                <P> Sept. 2022-2023 </P>
+                <H2>IV, Lagos</H2>
+                <P> July 2010-2024 </P>
             </div>
         </Company>
         <MiddleLine />
         <WorkExp>
             <div>
-                <H2>Visual Designer</H2>
-                <P> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis tempora fuga harum incidunt mollitia fugiat distinctio inventore exercitationem possimus </P>
+                <H2>Software Developer - DevOps</H2>
+                <P> Sharepoint Framework website creation </P>
+                <P> Deployed Github Repositories for JENKINS job </P>
             </div>
             <div>
-                <H2>Visual Designer</H2>
-                <P> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis tempora fuga harum incidunt mollitia fugiat distinctio inventore exercitationem possimus </P>
+                <H2>Operations</H2>
+                <P> Built an Internal Search system to speed data findings</P>
+                <P> Evaluated and Re-Evaluated more than 2000 candidates for the program</P>                
             </div>
             <div>
-                <H2>Visual Designer</H2>
-                <P> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis tempora fuga harum incidunt mollitia fugiat distinctio inventore exercitationem possimus </P>
+                <H2>CEO, Cryptocurrency Company</H2>
+                <P> Software Developer </P>
             </div>
         </WorkExp>
         </ContainerLarge>
@@ -141,32 +144,36 @@ const WorkExperience = () => {
         <MiddleLine />
         <Company>
             <div>
-                <H2>Self Employed, NYC</H2>
-                <P> Sept. 2022-2023 </P>
+                <H2>RedTechLimited, Victoria, Island</H2>
+                <P> May 2021-2024 </P>
             </div>
             <div>
-                <H2>Visual Designer</H2>
-                <P> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis tempora fuga harum incidunt mollitia fugiat distinctio inventore exercitationem possimus </P>
+                <H2>Software Developer - DevOps</H2>
+                <P> Sharepoint Framework website creation </P>
+                <P> Deployed Github Repositories for JENKINS job </P>
             </div>
             <div>
-                <H2>Self Employed, NYC</H2>
-                <P> Sept. 2022-2023 </P>
+                <H2>Tony Elumelu Foundation, Lagos</H2>
+                <P> Sept. 2022 - Oct. 2023 </P>
             </div>
             <div>
-                <H2>Visual Designer</H2>
-                <P> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis tempora fuga harum incidunt mollitia fugiat distinctio inventore exercitationem possimus </P>
+                <H2>Operations</H2>
+                <P> Built an Internal Search system to speed data findings</P>
+                <P> Evaluated and Re-Evaluated more than 2000 candidates for the program</P>                
             </div>
             <div>
-                <H2>Self Employed, NYC</H2>
-                <P> Sept. 2022-2023 </P>
+                <H2>IV, Lagos</H2>
+                <P> July 2010-2024 </P>
             </div>
-                        <div>
-                <H2>Visual Designer</H2>
-                <P> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis tempora fuga harum incidunt mollitia fugiat distinctio inventore exercitationem possimus </P>
-            </div>
+            <div>
+                <H2>CEO, Cryptocurrency Company</H2>
+                <P> Software Developer </P>
+            </div>     
+
         </Company>
         </ContainerMedium>
-    </Body>
+        </Body>
+    </MarginedBody>
   )
 }
 

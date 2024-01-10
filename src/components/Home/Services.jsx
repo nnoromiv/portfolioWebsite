@@ -1,9 +1,9 @@
 import { Badge, Card } from "react-bootstrap"
-import THUMBNAIL from "../../assets/Thumbnail.png"
-import THUMBNAIL2 from "../../assets/Thumbnail1.png"
 import { styled } from "styled-components"
 import { IntroTextSpan } from './Hero'
 import PropTypes from 'prop-types'
+import THUMBNAIL from "../../assets/Thumbnail.png"
+import THUMBNAIL2 from "../../assets/Thumbnail1.png"
 
 
 export const Body = styled.div`
@@ -107,13 +107,13 @@ const Dot = styled.div`
 
 const CARD_INFORMATION = [
     {
-        header: 'UI/UX Design',
+        header: 'Web Development',
         image: THUMBNAIL,
         className: '',
         gridColumn: '1/2'
     },
     {
-        header: 'Web Design',
+        header: 'Mobile Development',
         image: THUMBNAIL2,
         className: 'Orange',
         gridColumn: '2/3'
@@ -167,10 +167,10 @@ LocalCard.propTypes = {
 
 const Services = () => {
   return (
-    <Body>
+    <Body id="services">
         <HeaderInformation>
             <IntroText>My<IntroTextSpan> Services</IntroTextSpan></IntroText>
-            <HeaderText>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat non a, eius id s</HeaderText>
+            <HeaderText>Java • JavaScript • TypeScript • Python • Dart • TailWindCSS • SCSS • ReactJS • NextJS • MaterialUI • Redux • Firebase • MySQL • NodeJS • Android • NPM</HeaderText>
         </HeaderInformation>
         <LocalCard informationInArray={CARD_INFORMATION} Show={true} />
     </Body>

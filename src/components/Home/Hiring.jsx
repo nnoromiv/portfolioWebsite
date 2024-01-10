@@ -73,7 +73,10 @@ const Hiring = () => {
         </ImageContainer>
         <TextContainer>
             <IntroText style={{ display: 'block', textAlign: 'left'}}>Why You Would<IntroTextSpan> Hire Me</IntroTextSpan> For Your Next Projects?</IntroText>
-            <Text style={{ display: 'block', margin: '10px 0 20px 0', width: '100%' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nulla modi nemo ea odit itaque voluptatum molestias? Minima rem, nobis libero voluptates quae eum cupiditate nesciunt laborum doloremque possimus suscipit.</Text>
+            <Text style={{ display: 'block', margin: '10px 0 20px 0', width: '100%' }}>
+                There&apos;s so much language to use for one project and I have all the languages <br />
+                Java • JavaScript • TypeScript • Python • Dart • TailWindCSS • SCSS • ReactJS • NextJS • MaterialUI • Redux • Firebase • MySQL • NodeJS • Android • NPM
+            </Text>
             <GreetingCase style={{ margin: '0', color: 'var(--primary-color)', borderColor: 'var(--primary-color)' }}>Hire Me</GreetingCase>
         </TextContainer>
     </Body>

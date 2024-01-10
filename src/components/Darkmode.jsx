@@ -9,14 +9,11 @@ export const ToggleImage = styled.img`
     transition: 0.3s;
     cursor: pointer;
     margin: 8px 0 0 12px;
-
-    &:hover {
-        scale: 150%;
-    }
 `
 
 const Darkmode = (props) => {
     const [mode, setMode] = useState("")
+    
     function setDarkMode() {
         setMode("dark")
         document.querySelector("body").setAttribute("data-theme", "dark")

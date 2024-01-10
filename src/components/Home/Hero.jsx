@@ -5,7 +5,14 @@ import Socials from '../Socials'
 import STAR from '../../assets/star.png'
 import TypeWriting from '../TypeWriting'
 
-const Body = styled.div`
+export const MarginedBody = styled.div`
+    margin: 0 40px;
+    @media screen and (max-width: 769px){
+        margin: 0;
+    }
+`
+
+const Top = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,22 +22,19 @@ const Body = styled.div`
 
 const ArrowImage = styled.img`
     width: 50px;
-    transform: translate(-90px, 40px) rotate(30deg);
-    z-index: -1 
+    margin: 20px 0 0 0;
+    transform: translate(-70px, 40px) rotate(30deg);
 `
 export const GreetingCase = styled.h1`
+    text-align: center;
+    margin: 20px 0 0 0;
     background-color: transparent;
     font-size: 20px;
     border: 1px solid black;
     padding: 5px 15px;
     border-radius: 30px;
     width: fit-content;
-    margin: 2% 0 0 -7%;
     cursor: pointer;
-
-    @media screen and (max-width: 769px){
-        margin: 2% 0 0 -5%;
-    }
 `
 
 export const IntroText = styled.h1`
@@ -176,21 +180,21 @@ const EXPText = styled.h3`
     }
 `
 
-const TypewriterStrings = [ "Hi","My name is", "Nnorom Christian", "Call me Nnorom" ]
+const TypewriterStrings = [ "Hi","I am", "Nnorom Christian", ]
 
 const Hero = () => {
   return (
-    <>
-        <Body>
+    <MarginedBody>
+        <Top>
             <ArrowImage src={Arrow} srcSet="" alt="pointer" />
             <GreetingCase>Hello!</GreetingCase>
             <IntroText><IntroTextSpan><TypeWriting ArrayOfStrings={TypewriterStrings} /></IntroTextSpan></IntroText>
-            <IntroText> Frontend Engineer</IntroText>
-        </Body>
+            <IntroText> Full Stack Engineer </IntroText>
+        </Top>
         <InformationContainer>
             <div>
                 <Apostrophe>&ldquo;</Apostrophe>
-                <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptatum recusandae, ab laudantium, cumque quos vel eius fuga eveniet aliquid rem aspernatur pariatur! Hic dolorem sunt eius rerum voluptatem. Fugit!</Text>
+                <Text>Java • JavaScript • TypeScript • Python • Dart • TailWindCSS • SCSS • ReactJS • NextJS • MaterialUI • Redux • Firebase • MySQL • NodeJS • Android • NPM</Text>
                 <Socials />
             </div>
             <ImageContainer>
@@ -205,11 +209,11 @@ const Hero = () => {
                     <img src={STAR} srcSet="" alt="star" width="30px"/>
                 </div>
                 <IntroText>6 Yrs</IntroText>
-                <EXPText>Expert</EXPText>
+                <EXPText>Expertise</EXPText>
             </ExperienceContainer>
            
         </InformationContainer>
-    </>
+    </MarginedBody>
   )
 }
 

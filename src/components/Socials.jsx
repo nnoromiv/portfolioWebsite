@@ -1,7 +1,7 @@
 import { styled } from 'styled-components'
-import XLOGO from '../assets/twitterx-dark.svg'
-import LINKEDINLOGO from '../assets/linkedin-color.svg'
-import GITHUBLOGO from '../assets/github-dark.svg'
+import TWITTER from '../assets/twitterx-dark.svg'
+import LINKEDIN from '../assets/linkedin-color.svg'
+import GITHUB from '../assets/github-dark.svg'
 
 const Body = styled.div`
     @media screen and (max-width: 769px){
@@ -23,19 +23,23 @@ const LogoImage = styled.img`
     }
 `
 
-const Socials = () => {
+const Socials = () => {    
   return (
-    <Body>
-        <a href="https://twitter.com/nnoromiv" target="_blank" rel="noreferrer">
-            <LogoImage src={XLOGO} srcSet="" alt="x" />
-        </a>
-        <a href="https://www.github.com/nnoromiv" target="_blank" rel="noreferrer">
-            <LogoImage src={GITHUBLOGO} srcSet="" alt="x" />
-        </a>
-        <a href="https://www.linkedin.com/in/christian-nnorom-63b9a0159/" target="_blank" rel="noreferrer">
-            <LogoImage src={LINKEDINLOGO} srcSet="" alt="x" />
-        </a>
-    </Body>
+    <>
+        <Body>
+            <a href="https://twitter.com/nnoromiv" target="_blank" rel="noreferrer">
+                <LogoImage src={TWITTER} srcSet="" alt="x" />
+            </a>
+            <a href="https://www.github.com/nnoromiv" target="_blank" rel="noreferrer">
+                <LogoImage src={GITHUB} srcSet="" alt="x" />
+            </a>
+            <a href="https://www.linkedin.com/in/christian-nnorom-63b9a0159/" target="_blank" rel="noreferrer">
+                <LogoImage src={LINKEDIN} srcSet="" alt="x" />
+            </a>
+        </Body>
+        
+    </>
+    
   )
 }
 
