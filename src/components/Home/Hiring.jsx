@@ -1,5 +1,5 @@
 import { styled } from "styled-components"
-import IMAGE from '../../assets/img_2.png'
+import IMAGE from '../../assets/me.png'
 import { GreetingCase, IntroTextSpan, IntroText, Text } from  './Hero'
 
 const Body = styled.div`

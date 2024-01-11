@@ -1,5 +1,5 @@
 import { styled } from 'styled-components'
-import IMAGE from '../../assets/img_2.png'
+import IMAGE from '../../assets/me_2.png'
 import Arrow from '../../assets/arrow.svg'
 import Socials from '../Socials'
 import STAR from '../../assets/star.png'
@@ -152,6 +152,12 @@ const InnerCircle = styled.div`
 `
 const MyImage = styled.img`
     object-fit: contain;
+    width: 400px;
+    margin: 80px 0 0 -10px;
+
+    @media screen and (max-width: 769px){
+        margin: 80px 0 0 0;
+    }
 
     @media screen and (max-width: 426px){
         width: 250px

@@ -35,7 +35,7 @@ Feel free to reach out! [Contact](#contact)
 
 ## Projects
 
-### Project 1: [Bank Management System]([link-to-project-1](https://github.com/nnoromiv/bankManagementSystem))
+### Project 1: [Bank Management System](https://github.com/nnoromiv/bankManagementSystem)
 
 - The Bank Management System is a Java application that enables users to perform various banking operations. It includes features like user authentication, account creation, and transaction management.
 - Java, HTML
@@ -44,10 +44,8 @@ Feel free to reach out! [Contact](#contact)
 ### Project 2: [Car Show](https://github.com/nnoromiv/CarShow)
 
 - This web application uses API to show car data and details to users
-- TypeScript, CSS, JavaScript
+- TypeScript, TailwindCSS, JavaScript
 - [Link](https://github.com/nnoromiv/CarShow)
-
-... (add more projects as needed)
 
 ## Skills
 
@@ -60,8 +58,6 @@ List of my key skills, technologies, and tools that you are proficient in. You c
 
 ## Resume
 
-Include a link to your detailed resume or CV.
-
 [Resume](https://www.linkedin.com/in/nnorom/)
 
 ## Contact
@@ -69,9 +65,9 @@ Include a link to your detailed resume or CV.
 Feel free to reach out for collaboration, job opportunities, or just to say hello!
 
 - **Email:** <nnorom.prince44@gmail.com>
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/nnorom/)
-- **GitHub:** [Your GitHub Profile](https://github.com/nnoromiv)
-- **Portfolio Website:** [Portfolio Website](https://www.nnorom.netlify.app)
+- **LinkedIn** [Profile](https://www.linkedin.com/in/nnorom/)
+- **GitHub:** [Profile](https://github.com/nnoromiv)
+- **Portfolio Website:** [Website](https://www.nnorom.netlify.app)
 
 ## License
 
