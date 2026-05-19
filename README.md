@@ -2,7 +2,7 @@
 
 Personal portfolio built with **Next.js 15**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.
 
-Live: [nnorom.netlify.app](https://nnorom.netlify.app)
+Live: [nnorom.vercel.app](https://nnorom.vercel.app)
 
 ---
 
@@ -80,4 +80,4 @@ portfolioWebsite/
 - **Phone:** +44 7596 717786
 - **LinkedIn:** [linkedin.com/in/nnorom](https://linkedin.com/in/nnorom)
 - **GitHub:** [github.com/nnoromiv](https://github.com/nnoromiv)
-- **Website:** [nnorom.netlify.app](https://nnorom.netlify.app)
+- **Website:** [nnorom.vercel.app](https://nnorom.vercel.app)

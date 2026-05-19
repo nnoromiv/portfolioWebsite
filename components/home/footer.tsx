@@ -85,12 +85,12 @@ export default function Footer() {
               <li className="flex items-start gap-3 text-sm">
                 <Globe size={14} className="text-green-500 mt-0.5 flex-shrink-0" />
                 <Link
-                  href="https://nnorom.netlify.app"
+                  href="https://nnorom.vercel.app"
                   target="_blank"
                   rel="noreferrer"
                   className="text-zinc-500 hover:text-green-400 transition-colors link-underline"
                 >
-                  nnorom.netlify.app
+                  nnorom.vercel.app
                 </Link>
               </li>
             </ul>
