@@ -1,74 +1,83 @@
-# Nnorom Christian Portfolio
+# Christian O. Nnorom — Portfolio Website
 
-![Portfolio Screenshot](./src/assets/preview.png)
+Personal portfolio built with **Next.js 15**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.
 
-## Overview
+Live: [nnorom.netlify.app](https://nnorom.netlify.app)
 
-Welcome to my portfolio! This repository showcases my work, skills, and experiences in the field of Full Stack Development. Feel free to explore and learn more about what I have to offer.
+---
 
-## Table of Contents
+## Tech Stack
 
-- [About Me](#about-me)
-- [Projects](#projects)
-- [Skills](#skills)
-- [Resume](#resume)
-- [Contact](#contact)
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 15 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS v3 + CSS variables |
+| Animation | Framer Motion |
+| UI Components | shadcn/ui (Button, Badge, Carousel) |
+| Dark Mode | next-themes |
+| Font | Rubik via next/font |
+| Icons | Lucide React |
 
-## About Me
+---
 
-👋 Hello! I'm Nnorom Christian, a passionate and results-driven Software Development based in earth. With a keen interest in Full Stack Dev.
+## Sections
 
-💡 Leveraging my background in Computer Science and hands-on experience in Key Skills and Technologies, I am dedicated to Serving.
+- **Hero** — Animated intro with typewriter role, floating tech tags, profile photo
+- **Services** — Backend Engineering, Frontend Engineering, Cloud + AI/ML, Web Development, Mobile Development
+- **Work Experience** — Alternating timeline (CitiSense, University of Essex, RedTech, Tony Elumelu Foundation)
+- **Why Choose Me** — Stats, skill tags, CTA
+- **Featured Work** — Carousel showcasing Voote, Vehicle Annotator, Merchant Platform, ADHD Pipeline
+- **Latest Thoughts** — Blog card grid
+- **Footer** — Contact, navigation, availability status
 
-🚀 Throughout my career, I have had the opportunity to work on impactful projects such as
+---
 
-- Search Algorithm for companies.
-- Landing Pages for companies.
+## Getting Started
 
-These experiences have honed my skills in Development and equipped me with the ability to accomplish any and every possible achievements.
+```bash
+npm install
+npm run dev       # http://localhost:3000
+npm run build     # production build
+npm run start     # serve production build
+```
 
-🌐 Always eager to learn and stay ahead in the dynamic world of this Industry, I am committed to pushing boundaries and contributing to the society.
+---
 
-🤝 Let's connect and explore how my skills and passion align with your needs. Whether it's collaborating on exciting projects, discussing industry trends, or just having a conversation, I'm always open to new opportunities and connections.
+## Project Structure
 
-Feel free to reach out! [Contact](#contact)
+```
+portfolioWebsite/
+├── app/
+│   ├── layout.tsx        # Root layout (font, theme, metadata)
+│   ├── page.tsx          # Main page
+│   └── globals.css       # Tailwind + CSS variables + glass utilities
+├── components/
+│   ├── home/             # Section components (hero, services, etc.)
+│   ├── ui/               # shadcn components (button, badge, carousel)
+│   ├── navbar.tsx        # Fixed glass navbar
+│   ├── preloader.tsx     # Animated page preloader
+│   ├── scroll-reveal.tsx # Framer Motion scroll animation wrapper
+│   ├── theme-toggle.tsx  # Dark / light mode toggle
+│   └── type-writing.tsx  # Typewriter effect (dynamic import, SSR-off)
+├── lib/
+│   ├── nav-links.ts      # Navigation link definitions
+│   └── utils.ts          # cn() helper
+└── public/
+    └── assets/
+        ├── me.png / me_2.png
+        ├── moon.svg / sun.svg
+        └── projects/     # Portfolio & blog images
+```
 
-## Projects
+---
 
-### Project 1: [Bank Management System](https://github.com/nnoromiv/bankManagementSystem)
+## About
 
-- The Bank Management System is a Java application that enables users to perform various banking operations. It includes features like user authentication, account creation, and transaction management.
-- Java, HTML
-- [Link](https://github.com/nnoromiv/bankManagementSystem)
+**Christian O. Nnorom** — Backend-focused Software Engineer (3+ years) with experience in Node.js/Express, Python, AWS, Docker, and AI/ML (YOLOv8, PyTorch, TensorFlow). Currently a Full Stack & ML Engineer at CitiSense, London.
 
-### Project 2: [Car Show](https://github.com/nnoromiv/CarShow)
-
-- This web application uses API to show car data and details to users
-- TypeScript, TailwindCSS, JavaScript
-- [Link](https://github.com/nnoromiv/CarShow)
-
-## Skills
-
-List of my key skills, technologies, and tools that you are proficient in. You can categorize them based on your expertise.
-
-- **Programming Languages:** Java, Python, Dart, JavaScript, HTML, CSS
-- **Frameworks:** React, Node.js, NextJs, Vite
-- **Database:** MongoDB, MySQL, POSTGRESQL
-- **Other Tools:** Git, VS Code, Firebase etc.
-
-## Resume
-
-[Resume](https://www.linkedin.com/in/nnorom/)
-
-## Contact
-
-Feel free to reach out for collaboration, job opportunities, or just to say hello!
-
-- **Email:** <nnorom.prince44@gmail.com>
-- **LinkedIn** [Profile](https://www.linkedin.com/in/nnorom/)
-- **GitHub:** [Profile](https://github.com/nnoromiv)
-- **Portfolio Website:** [Website](https://www.nnorom.netlify.app)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+- **Email:** nnorom.prince44@gmail.com
+- **Phone:** +44 7596 717786
+- **LinkedIn:** [linkedin.com/in/nnorom](https://linkedin.com/in/nnorom)
+- **GitHub:** [github.com/nnoromiv](https://github.com/nnoromiv)
+- **Website:** [nnorom.netlify.app](https://nnorom.netlify.app)
