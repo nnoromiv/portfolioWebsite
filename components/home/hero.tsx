@@ -126,7 +126,7 @@ export default function Hero() {
             {FLOATING_TECH.map((t) => (
               <div
                 key={t.label}
-                className="hidden xl:block absolute z-20 text-xs font-semibold px-2.5 py-1.5 rounded-full glass border border-white/10 text-zinc-300 whitespace-nowrap shadow-lg"
+                className="hidden lg:block absolute z-20 text-xs font-semibold px-2.5 py-1.5 rounded-full glass border border-white/10 text-zinc-300 whitespace-nowrap shadow-lg"
                 style={{
                   top: t.top,
                   left: t.left,
